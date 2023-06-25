@@ -54,6 +54,8 @@ router.delete('/:id', controller.deleteStudent)
 router.put('/:id', controller.updateStudent)
 router.get('/:id', controller.getStudentById)
 
+
+///////////// IMAGE UPDATE ROUTERS //////////////////
 router.get('/profile/update/:id', controller.getUser)
 router.post('/profile/update/:id', Upload, controller.updateUser)
 
