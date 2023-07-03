@@ -20,7 +20,5 @@ function guard(req, res, next) {
     }
 }
 
-module.exports = {
-    guard
-}
+module.exports = guard
 
